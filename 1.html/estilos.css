@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4285f4;
+    margin-bottom: 15px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+/* Añadir estilos específicos para el género */
+div.gender {
+    display: flex;
+    align-items: center;
+}
+
+/* Añadir márgenes para los elementos de género */
+div.gender input {
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ul ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+ul ul li {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0058a3;
+}
