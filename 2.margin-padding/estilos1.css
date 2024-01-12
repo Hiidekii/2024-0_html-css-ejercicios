@@ -1,0 +1,26 @@
+body {
+    margin: 100px;
+}
+
+#id1 {
+    background-color: rgb(226, 153, 153);
+    border-style: solid;
+    border-color: blue;
+    padding: 32px;
+    margin: 12px;
+}
+
+#id2 {
+    background-color: rgb(136, 221, 224);
+    border-style: solid;
+    border-color: red;
+}
+
+#id3 {
+    background-color: rgb(238, 221, 64);
+    border-style: solid;
+    border-color: red;
+    padding: 32px;
+    margin-top: 42px;
+    margin-left: 700px;
+}

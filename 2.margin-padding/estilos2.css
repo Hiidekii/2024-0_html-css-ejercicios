@@ -1,0 +1,25 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    background-color: rgb(191, 238, 238);
+    margin: 10px;
+}
+
+#parrafo1 {
+    background-color: rgb(191, 238, 238);
+    margin: 10px;
+    padding: 10px;
+}
+
+#parrafo2 {
+    background-color: rgb(191, 238, 238);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#boton {
+    padding: 4px;
+}
