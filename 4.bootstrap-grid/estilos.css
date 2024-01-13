@@ -1,0 +1,75 @@
+select {
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #66401A;
+    /* Establecer el grosor del borde y el color */
+}
+
+th,
+td {
+    text-align: center;
+}
+
+#logo {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#cursiva {
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+#proyectos {
+    width: 200px;
+    background-color: #EFE1C6;
+    padding: 10px;
+    border-style: solid;
+    border-color: #66401A;
+    border-width: 1px;
+    float: left;
+    margin: auto auto 350px auto;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.backinput {
+    background-color: #EFE1C6;
+}
+
+.cuerpo {
+    background-color: #EFE1C6;
+    margin: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    font-size: Arial;
+    background-color: white;
+    width: 700px;
+    border-bottom: #66401A 10px solid;
+}
+
+.container>div {
+    padding: 10px;
+}
+
+.container>div>h1,
+h2 {
+    font-family: Georgia;
+    color: #66401A;
+}
