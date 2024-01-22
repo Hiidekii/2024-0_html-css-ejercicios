@@ -1,0 +1,9 @@
+.login {
+    width: 100%;
+}
+
+.botones {
+    width: 50%;
+    margin: 3px;
+    white-space: nowrap;
+}
